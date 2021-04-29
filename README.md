@@ -4,7 +4,7 @@
 <!-- PROJECT Heading -->
 <br />
 <p align="center">
-  <h2 align="center">Starter with Node.js & Typescript</h2>
+  <h2 align="center">starter-node-ts</h2>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -29,20 +29,22 @@
 
 ## Usage
 
-Convert 8-byte hexadecimal string to 64-bit integer string
+Use the inbuilt vs code launch/debug configuration to start the project
 
-```js
-const hexTo64Int = require('hex-to-64int');
-hexTo64Int('100000a218da0085');
-//=> 1152922200808489093
+or
+
+Use launch with nodemon using the following command on your cli:
+
+```sh
+npm run dev:debug
 ```
 
 ## Running tests
 
-Install dev dependencies:
+You can run tests using Jest
 
 ```sh
-$ npm i -d && npm test
+$ jest
 ```
 
 # Built With
